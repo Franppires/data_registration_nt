@@ -21,22 +21,28 @@
     </div>
     <section>
         <form class="form"> 
-            <div class="line">
-                <label for="name">Nome</label>
+
+            <div>
+                <label class="big-label" for="name">Nome</label>
                 <input name="name" id="name" required type="text"/>
             </div>
-            <div class="line">
-                <label for="phone">Telefone</label>
+            
+            <div>
+                <label class="big-label" for="phone">Telefone</label>
                 <input name="phone" id="phone" required type="text"/>
             </div>
-            <div>   
-                <label>Experiência Prévia</label>
-                <input type="radio" name="xp" id="xp-yes"/><label for="xp-yes">
-                    Sim
-                </label>
-                <input type="radio" name="xp" id="xp-no"/><label for="xp-no">
-                    Não
-                </label>
+            
+            <div class="line"> 
+                <label class="big-label">Experiência Prévia</label>
+                <div style="display:inline-block; width: 40%;">  
+                    <input type="radio" name="xp" id="xp-yes"/><label for="xp-yes">
+                        Sim
+                    </label>
+                    <br>
+                    <input type="radio" name="xp" id="xp-no"/><label for="xp-no">
+                        Não
+                    </label>
+                </div>
             </div>
 
 

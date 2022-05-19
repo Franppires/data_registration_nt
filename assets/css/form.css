@@ -8,8 +8,12 @@
 
 .form div {
     width: 100%;
+
 }
 
-.line {
-    margin-bottom: 10px;
+.form .big-label {
+    width: 50%;
+    text-align: right;
+    display: inline-block;
 }
+
