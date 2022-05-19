@@ -1,0 +1,17 @@
+.list {
+    width: 100%;
+    border-spacing: 0px;
+    padding: 1px;
+}
+
+.list tr:nth-child(1) {
+    vertical-align: top;
+    background-color: rgb(2, 2, 48);
+    color: white;
+    font-weight: bold;
+
+}
+
+.list tr td {
+    padding: 5px;
+}
