@@ -11,8 +11,16 @@ body {
 .menu {
     display: flex;
     justify-content: center;
+    margin-top: 10px;
 }
 
 .menu a {
-    
+    text-decoration: none;
+    font-size: bold;
+    color: blue;
+    margin-right: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 1px solid blue;
+    padding: 5px;
+
 }
