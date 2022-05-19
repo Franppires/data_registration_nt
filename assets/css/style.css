@@ -3,4 +3,16 @@ body {
     margin: 0px;
 }
 
-h
+.header {
+    background: linear-gradient(45deg, white, #160be3);
+    padding: 15px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu a {
+    
+}
