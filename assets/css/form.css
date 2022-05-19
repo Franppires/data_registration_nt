@@ -3,11 +3,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .form div {
     width: 100%;
+    margin-bottom: 9px;
 
 }
 
@@ -16,4 +17,33 @@
     text-align: right;
     display: inline-block;
 }
+
+.xp-line div {
+    display:inline-block; 
+    width: 40%;
+}
+
+@media screen and (max-width:419px) {
+    .form input[type="text"]{
+        width: 100%;
+    }
+
+    .form .big-label{
+        width: 100%;
+        text-align: center
+
+    }
+
+    .xp-line {
+        flex-direction: column;
+
+    }
+
+    .xp-line div {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
 

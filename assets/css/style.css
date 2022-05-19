@@ -4,7 +4,7 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.header {
+header {
     background: linear-gradient(45deg, white, #160be3);
     padding: 15px;
 }
@@ -22,11 +22,12 @@ body {
     text-decoration: none;
     font-size: bold;
     color: blue;
+    margin-top: 2px;
+    margin-bottom: 2px;
     margin-right: 7px;
     margin-left: 7px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border: 1px solid blue;
     padding: 5px;
-
 }
 
