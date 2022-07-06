@@ -1,53 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/css/style.css">
-    <link rel="stylesheet" href="../assets/css/form.css">
-</head>
-<body>
-    <header class="header">
-        <img src="../assets/img/logo.png" width="200px">
-    </header>
-    <div class="menu">
-        <a href="../index.html">
-            Listagem
-        </a>
-        <a href="./src/form.html">
-            Cadastrar
-        </a>
-    </div>
-    <section>
-        <form class="form"> 
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../assets/css/style.css">
+        <link rel="stylesheet" href="../assets/css/form.css">
+    </head>
+    <body>
+        <header class="header">
+            <img src="../assets/img/logo.png" width="200px">
+        </header>
+        <div class="menu">
+            <a href="../index.html">
+                Listagem
+            </a>
+            <a href="./src/form.html">
+                Cadastrar
+            </a>
+        </div>
+        <section>
+            <form class="form"> 
 
-            <div>
-                <label class="big-label" for="name">Nome</label>
-                <input name="name" id="name" required type="text"/>
-            </div>
-            
-            <div>
-                <label class="big-label" for="phone">Telefone</label>
-                <input name="phone" id="phone" required type="text"/>
-            </div>
-            
-            <div class="line xp-line"> 
-                <label class="big-label">Experiência Prévia</label>
-                <div>  
-                    <input type="radio" name="xp" id="xp-yes"/><label for="xp-yes">
-                        Sim
-                    </label>
-                    <br>
-                    <input type="radio" name="xp" id="xp-no"/><label for="xp-no">
-                        Não
-                    </label>
+                <div>
+                    <label class="big-label" for="name">Nome</label>
+                    <input name="name" id="name" required type="text"/>
                 </div>
-            </div>
+                
+                <div>
+                    <label class="big-label" for="phone">Telefone</label>
+                    <input name="phone" id="phone" required type="text"/>
+                </div>
+                
+                <div class="line xp-line"> 
+                    <label class="big-label">Experiência Prévia</label>
+                    <div>  
+                        <input type="radio" name="xp" id="xp-yes"/><label for="xp-yes">
+                            Sim
+                        </label>
+                        <br>
+                        <input type="radio" name="xp" id="xp-no"/><label for="xp-no">
+                            Não
+                        </label>
+                    </div>
+                </div>
 
 
 
-            <input type="submit" value="Salvar"/>
-
-        </form>
-    </section>
+                <input type="submit" value="Salvar"/>
+            </form>
+        </section>
+        <script src="./javascript/form.js"></script>
+    </body>
+</html>    
