@@ -24,24 +24,37 @@ var people = [
         tel: '14999999999',
         xp: true
     },
-]
+];
 
 
-for (person in people) { 
-    console.log(person)
-    document.querySelector('table.list tbody').innerHTML += 
-        `<tr style="background-color: ${((person % 2 == 0) ? '#fff' : '#eee')}"> 
-            <td> 
-                ${ people[person].name }
-            </td>
-            <td> 
-                ${ people[person].tel }
-            </td>
-            <td> 
-                ${ (people[person].xp ? '<strong style="color:green"> Sim </strong>' : '<strong style="color:red"> Não </strong>' )} 
-            </td>
-            <td> 
-                <button> Excluir </button>
-            </td> 
-        </tr>`
+function desenhaTabela () {
+
+currenLines = [...document.querySelectorAll('table.list tbody .dinamic-content')];
+currenLines.forEach((element) => {
+    element.remove()
+});
+
+    for (person in people) { 
+        document.querySelector('table.list tbody').innerHTML += 
+            `<tr class="dinamic-content" style="background-color: ${((person % 2 == 0) ? '#fff' : '#eee')}"> 
+                <td> 
+                    ${ people[person].name }
+                </td>
+                <td> 
+                    ${ people[person].tel }
+                </td>
+                <td> 
+                    ${ (people[person].xp ? '<strong style="color:green"> Sim </strong>' : '<strong style="color:red"> Não </strong>' )} 
+                </td>
+                <td> 
+                    <button onclick="people.splice(${person}, 1); desenhaTabela()"> Excluir </button>
+                </td> 
+            </tr>`
+    }
+
 }
+
+
+
+
+desenhaTabela()
