@@ -12,7 +12,7 @@
             <img src="../assets/img/logo.png" width="200px">
         </header>
         <div class="menu">
-            <a href="../index.html">
+            <a id="goHome" href="../index.html">
                 Listagem
             </a>
             <a href="./src/form.html">
@@ -20,36 +20,31 @@
             </a>
         </div>
         <section>
-            <form class="form"> 
-
+            <form class="form" onsubmit="testform(event);"> 
                 <div>
                     <label class="big-label" for="name">Nome</label>
                     <input name="name" id="name" required type="text"/>
                 </div>
-                
                 <div>
                     <label class="big-label" for="phone">Telefone</label>
                     <input name="phone" id="phone" required type="text"/>
                 </div>
-                
                 <div class="line xp-line"> 
                     <label class="big-label">Experiência Prévia</label>
                     <div>  
-                        <input type="radio" name="xp" id="xp-yes"/><label for="xp-yes">
+                        <input type="radio" name="xp" id="xp-yes" value="true"/><label for="xp-yes">
                             Sim
                         </label>
                         <br>
-                        <input type="radio" name="xp" id="xp-no"/><label for="xp-no">
+                        <input type="radio" name="xp" id="xp-no" value="false"/><label for="xp-no">
                             Não
                         </label>
                     </div>
                 </div>
 
-
-
                 <input type="submit" value="Salvar"/>
             </form>
         </section>
-        <script src="./javascript/form.js"></script>
     </body>
+    <script src="../javascript/form.js"></script>
 </html>    
