@@ -27,7 +27,7 @@
                 </div>
                 <div>
                     <label class="big-label" for="phone">Telefone</label>
-                    <input name="phone" onkeypress="foreheadPhoneField(event)" id="phone" required type="text"/>
+                    <input name="phone" onkeypress="foreheadPhoneField(event)" onfocus="this.value = ''" id="phone" required type="text"/>
                 </div>
                 <div class="line xp-line"> 
                     <label class="big-label">Experiência Prévia</label>
@@ -41,7 +41,6 @@
                         </label>
                     </div>
                 </div>
-
                 <input type="submit" value="Salvar"/>
             </form>
         </section>

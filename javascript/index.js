@@ -1,17 +1,20 @@
+/**Local de armazenamento**/ 
 var peopleRaw = localStorage.getItem('people')
 if(peopleRaw != null) { 
     var people = JSON.parse(peopleRaw)
 } else {
     var people = []
 }
-
-function desenhaTabela () {
+ 
+/**Carregamento da nova tabela e exclusão de cadastro */
+function drawTable () {
 
 currenLines = [...document.querySelectorAll('table.list tbody .dinamic-content')];
 currenLines.forEach((element) => {
     element.remove()
 });
 
+/**Dados do formulario**/
     for (person in people) { 
         document.querySelector('table.list tbody').innerHTML += 
             `<tr class="dinamic-content" style="background-color: ${((person % 2 == 0) ? '#fff' : '#eee')}"> 
@@ -32,10 +35,12 @@ currenLines.forEach((element) => {
     }
 
 }
+
+/**Local de armazenamento persistência**/
 function deleteUser(p) { 
     people.splice(p, 1);
-    desenhaTabela();
+    drawTable();
     localStorage.setItem('people', JSON.stringify(people))
 }
 
-desenhaTabela()
+drawTable()
