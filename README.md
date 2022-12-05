@@ -32,5 +32,7 @@ A aplicação deverá ser responsiva.
 Persistir as transações no Local Storage.
 
 ### clique na imagem abaixo e assista ao video da aplicação em funcionamento
-[![cadastro de candidatos](https://user-images.githubusercontent.com/104803568/205666467-ba3bec18-ed0b-43b6-99a1-5bae7c9f6556.png)](https://www.youtube.com/watch?v=NqVU11jo-lw&feature=youtu.be)
+[![cadastro de candidatos](https://user-images.githubusercontent.com/104803568/205668103-d61b5c0b-aa1d-4077-a772-3568d341ef10.png)](https://www.youtube.com/watch?v=NqVU11jo-lw&feature=youtu.be)
+
+![image]
 
