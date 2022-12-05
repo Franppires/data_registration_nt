@@ -33,6 +33,3 @@ Persistir as transações no Local Storage.
 
 ### clique na imagem abaixo e assista ao video da aplicação em funcionamento
 [![cadastro de candidatos](https://user-images.githubusercontent.com/104803568/205668103-d61b5c0b-aa1d-4077-a772-3568d341ef10.png)](https://www.youtube.com/watch?v=NqVU11jo-lw&feature=youtu.be)
-
-![image]
-
