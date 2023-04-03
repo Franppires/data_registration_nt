@@ -1,21 +1,13 @@
 # Sobre o projeto
 Objetivo do projeto: criar uma aplicação que tenha as seguintes funcionalidades:
 
-Conter duas páginas:
-  * Cadastro  
-  * Listagem 
+Conter página de Cadastro e Listagem 
 
-Estrutura da página:
-  * Topo com logo 
-  * Menu superior com dois links 
+Estruturar página com header, logo e menu superior com dois links 
 
-Aba cadastrar com:
-  * Cadastro de novos candidatos
+Aba cadastrar realizar o cadastro de novos candidatos
  
-Cada registro possui os seguintes dados: 
-  * Nome, 
-  * Telefone, 
-  * Experiência Prévia (Sim ou não).
+Cada registro possui Nome, Telefone e Experiência Prévia (Sim ou não).
 
 Validar o formulário para que todos os campos sejam preenchidos.
 
