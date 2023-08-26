@@ -1,27 +1,12 @@
-# Sobre o projeto
-Objetivo do projeto: criar uma aplicação que tenha as seguintes funcionalidades:
+# Desenvolvimento de Sistema de Cadastro e Edição de Candidatos
 
-Conter página de Cadastro e Listagem 
+📚 Como parte do ambiente acadêmico, liderei o desenvolvimento de um sistema de cadastro de candidatos. Criei uma tela de cadastro com formulário, incluindo validação de campos com máscaras.
 
-Estruturar página com header, logo e menu superior com dois links 
+💻 Aprimorei a experiência permitindo a edição dos dados cadastrados.
 
-Aba cadastrar realizar o cadastro de novos candidatos
- 
-Cada registro possui Nome, Telefone e Experiência Prévia (Sim ou não).
+🔒 Todos os dados foram armazenados localmente usando o Local Storage, garantindo a persistência das informações mesmo após o fechamento do navegador.
 
-Validar o formulário para que todos os campos sejam preenchidos.
-
-Adicionar uma máscara no campo “Telefone”.
-
-Listagem de todos os candidatos respeitando a ordem de cadastro.
-
-Incluir o botão “Alterar” para poder editar um registro cadastro.
-
-Marcar os candidatos com experiência prévia com verde e os sem experiência com vermelho.
-
-A aplicação deverá ser responsiva.
-
-Persistir as transações no Local Storage.
+🌐 O projeto não apenas demonstrou minhas habilidades de desenvolvimento, mas também minha capacidade de criar soluções funcionais e amigáveis para os usuários.
 
 ### clique na imagem abaixo e assista ao video da aplicação em funcionamento
 [![cadastro de candidatos](https://user-images.githubusercontent.com/104803568/205668103-d61b5c0b-aa1d-4077-a772-3568d341ef10.png)](https://www.youtube.com/watch?v=NqVU11jo-lw&feature=youtu.be)
